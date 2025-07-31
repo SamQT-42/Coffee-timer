@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Timer ☕ ₍ᐢ•(ｪ)•ᐢ₎</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <label for="start-time">Your last coffee was at:</label>
+        <input type="time" id="start-time" name="start-time"/>
+        <br>
+        <button onclick="startTimer()">Start Timer</button>
+
+        <div id="countdown" class="hidden">
+            <h2>Next Cup In:</h2>
+            <p id ="timer">==:==:==</p>
+        </div>
+    </div>
+</body>
+</html>

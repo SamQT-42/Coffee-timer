@@ -1,0 +1,42 @@
+body {
+  font-family: Garamond, serif;
+  background-image: url("cute-funny-capybara-cups-on-600nw-2578459299.webp");
+  color: rgb(86, 42, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+label {
+    font-style: bold;
+}
+
+.container {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  
+}
+
+input, button {
+  padding: 0.5em;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+button {
+  font-family: garamond, serif;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(123, 62, 19);
+  color: white;
+
+}
+
+.hidden {
+  display: none;
+}
